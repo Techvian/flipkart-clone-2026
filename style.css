@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+}
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 131px;
+}
+.header-01,
+.header-02 {
+    /* background-color: #FFFFFF; */
+    width: 100%;
+    height: 66px;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+.logo-box_01 {
+    width: 130px;
+    height: 52px;
+}
+.logo {
+    background-color: rgb(255, 229, 31);
+    width: 130px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.logo-img-01 {
+    width: 26px;
+    height: 22px;
+    margin-left: 19px;
+}
+.logo-img-02 {
+    height: 18px;
+    width: 46px;
+}
+.travel {
+    background-color: rgb(240, 240, 240);
+    width: 130px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.plane-img {
+    width: 30px;
+    height: 22px;
+    margin-left: 19px;
+}
+.travel-img {
+    width: 37px;
+    height: 18px;
+}
+.location {
+    width: 400px;
+    height: 46px;
+    /* background-color: red; */
+    /* margin-left: 200px; */
+    margin-top: 8px;
+    position: relative;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: auto;
+}
+.location-text {
+    /* width: 130px;
+    height: 44px; */
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.location-text i {
+    width: 16px;
+    height: 16px;
+}
+.location-text p {
+    color: #1F1F1F;
+}
+.location-text a {
+    color: #1254E7;
+}
+
+/* header-02 */
+/* .header-02 {
+    width: 1200px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    
+} */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 880px;
+    height: 44px;
+    border-radius: 12px;
+    /* background-color: #ffffff; */
+    /* background-color: #1254E7; */
+    border: 2px solid #2EA1FF;
+}
+.search-input {
+    width: 830px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav-login {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+.search-icon {
+    width: 52px;
+    font-size: large;
+    color: black;
+}
