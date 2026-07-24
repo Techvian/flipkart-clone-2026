@@ -19,6 +19,7 @@ header {
     width:100%;
     max-width:1400px;
     margin:auto;
+    padding-left: 100px;
 }
 .header-01,
 .header-02 {
@@ -101,7 +102,7 @@ header {
     margin-left: 19px;
 }
 .minutes-text-img {
-    width: 37px;
+    width: 48px;
     height: 18px;
 }
 .logo-box-04 {
@@ -124,7 +125,7 @@ header {
     margin-left: 19px;
 }
 .grocery-text-img {
-    width: 37px;
+    width: 48px;
     height: 18px;
 }
 .location {
@@ -136,6 +137,7 @@ header {
     box-sizing: border-box;
     align-items: center;
     margin-left: auto;
+    margin-right: 10%;
 }
 .location-text {
     /* width: 130px;
@@ -162,18 +164,29 @@ header {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    max-width: 821.17px;
+    max-width: 877.17px;
     height: 44px;
     border-radius: 12px;
-    border: 2px solid #1254E7;
+    border: 2px solid #2EA1FF;
 }
 .search-input {
-    height: 40px;
+    width: 815px;
+    height: 35px;
     border: none;
     outline: none;
     font-size: 16px;
     display: flex;
     align-items: center;
+    border-radius: 12px;
+}
+.nav-function {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 32px;
+    margin-right: 12%;
 }
 .nav-button {
     width:50px;
@@ -186,8 +199,11 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 8px;
     cursor: pointer;
+}
+.nav-login i {
+    width: 24px;
+    height: 24px;
 }
 .nav-login:hover {
     color:#2874f0;
@@ -209,6 +225,8 @@ header {
 }
 } */
 .more {
+    width: 34px;
+    height: 18px;
     justify-content: center;
     align-items: center;
     display: flex;
